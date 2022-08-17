@@ -1,0 +1,83 @@
+.background{
+    position: relative;
+}
+.background img{
+    opacity: 1;
+    width: 100%;
+}
+.navBar{
+    position: absolute;
+    align-items: center;
+    top: 10px;
+}
+.navBar h3{
+    display: inline-block;
+    color: #fff;
+    margin-left: 50px;
+    right: 10px;
+}
+.navBar h3:hover{
+    color: #FFE898;
+    text-decoration: underline solid #576F72 3px;
+
+}
+.logo{
+    left: 10px;
+    width: 15vw;
+    display: inline-block;
+}
+.navContent{
+    display: inline-block;
+    float: right;
+}
+.slide-fwd-center h1{
+	color: #FFE898;
+    position: absolute;
+    bottom: 50%;
+    width: 50%;
+    left: 30px;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 8vw;
+    display: inline;
+}
+.slide-fwd-center h3{
+	color: #ffefb4;
+    position: absolute;
+    bottom: 50%;
+    width: 50%;
+    left: 30px;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 2vw;
+    display: inline;
+}
+.fa-solid{
+    position: absolute;
+    font-size: 3vw;
+    color: rgb(180, 39, 39);
+    bottom: 50%;
+    width: 100px;
+    height: 100px;
+}
+.cards{
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    bottom: 15%;
+    margin-left: 15%;
+}
+.threeCards{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid #FFE898;
+    height: 190px;
+    border-radius: 20%;
+}
+.threeCards h2{
+    color: #fff;
+}
+.threeCards h3{
+    color: #FFE898;
+}
